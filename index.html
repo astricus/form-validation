@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Form Validator</title>
+    </head>
+    <body>
+        <div class="container">
+            <form id="form" class="form">
+                <h2>Зарегистрироваться</h2>
+                <div class="form-control">
+                    <label for="username">Логин</label>
+                    <input type="text" id="логин" placeholder="Введите логин" />
+                    <small>Ошибка</small>
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Введите email" />
+                    <small>Ошибка</small>
+                </div>
+                <div class="form-control">
+                    <label for="password">Пароль</label>
+                    <input
+                        type="password"
+                        id="пароль"
+                        placeholder="Введите пароль"
+                    />
+                    <small>Ошибка</small>
+                </div>
+                <div class="form-control">
+                    <label for="password2">Подтвердите пароль</label>
+                    <input
+                        type="password"
+                        id="пароль2"
+                        placeholder="Введите пароль еще раз"
+                    />
+                    <small>Ошибка</small>
+                </div>
+                <button type="submit">Зарегистрироваться</button>
+            </form>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
